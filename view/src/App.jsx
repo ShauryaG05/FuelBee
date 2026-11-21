@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Dashboard from "./pages/"
+import Record from "./pages/record"
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<>Hello</>} />
+          <Route path="/" element={<Record/>} />
         </Routes>
       </BrowserRouter>
 
